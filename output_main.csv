@@ -1,0 +1,8 @@
+line$#include$return$int$main$argc$char$//
+#include <stdio.h>$1$0$0$0$0$0$0
+{$0$0$0$0$0$0$0
+   return 0;$0$1$0$0$0$0$0
+int main(int argc, char *argv)$0$0$2$1$1$1$0
+   printf("Hello, World!");$0$0$1$0$0$0$0
+// avoid int main(int argc) $0$0$2$1$1$0$1
+   // printf() displays the string inside quotation$0$0$1$0$0$0$1

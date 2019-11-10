@@ -1,0 +1,11 @@
+id$code_content$class_value
+1$#include <stdio.h>$0
+2$$0
+3$// avoid int main(int argc) $0
+4$int main(int argc, char *argv)$0
+5${$0
+6$   // printf() displays the string inside quotation$0
+7$   printf("Hello, World!");$0
+8$$0
+9$   return 0;$0
+10$}$0
