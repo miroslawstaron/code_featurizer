@@ -1,0 +1,17 @@
+# Generated output files from running examples
+output_*.csv
+feature_list_*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
