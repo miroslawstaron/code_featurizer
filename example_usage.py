@@ -95,11 +95,11 @@ class DataSet:
     def toCSV(self, strFilename):
         fFile = open(strFilename, 'w', encoding='utf8')
         strFirstLine = 'line$'
-        strFirstLine += '$'.join(self.featureVector) + '\\n'
+        strFirstLine += '$'.join(self.featureVector) + '\n'
         fFile.write(strFirstLine)
         for key, value in self.dictRows.items():
-            value = value.replace("\\n", "").replace("$","").replace("\\r","").replace("\\t","")
-            strToFile = f'{value}${key}\\n'
+            value = value.replace("\n", "").replace("$","").replace("\r","").replace("\t","")
+            strToFile = f'{value}${key}\n'
             fFile.write(strToFile)
         fFile.close()
     
@@ -158,7 +158,7 @@ def findFeatureListIterative(lstLines, strOutputFeatureFile):
         if len(featureList) % 10 == 0:
             print('Saving feature list...')
             fFile = open(strOutputFeatureFile, 'w', encoding='utf8')
-            strFirstLine = '$'.join(featureList) + '\\n'
+            strFirstLine = '$'.join(featureList) + '\n'
             fFile.write(strFirstLine)
             fFile.close()
             print('Done...')
