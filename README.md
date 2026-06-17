@@ -101,6 +101,8 @@ If you use this code featurizer in your research, please cite the following pape
 }
 ```
 
+**Note**: The BibTeX entry uses ASCII transliteration for author names as per standard practice.
+
 ## License
 
 See the LICENSE file for details.
